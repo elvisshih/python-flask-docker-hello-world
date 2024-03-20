@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Pull') {
             steps {
-                git 'https://github.com/elvisshih/python-flask-docker-hello-world.git'
+                git 'https://github.com/shekhargulati/python-flask-docker-hello-world.git'
             }
         }
         stage('Docker Run') {
